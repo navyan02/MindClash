@@ -53,7 +53,7 @@ module.exports = function (socket, io, firebase) {
     gameStart(room, firebase, io)
   })
   socket.on("question-victory", ({ room, id, timeStart, timeStop, position }) => {
-    console.log(`🏁 [QUESTION VICTORY] Socket: ${socket.id}, Room: ${room}, QID: ${id}, Pos: ${position}`);
+    console.log(`[QUESTION VICTORY] Socket: ${socket.id}, Room: ${room}, QID: ${id}, Pos: ${position}`);
     captureRegion(room, id, position, socket.id, firebase, io);
   })
   socket.on("penalty", ({ room, position }) => {
