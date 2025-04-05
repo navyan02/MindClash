@@ -34,33 +34,23 @@ const Lobby = () => {
       >
         <div className="grid grid-cols-1 md:grid-cols-2">
           {/* Left Side: Lobby Info */}
-          <div className="border-r p-6 space-y-6">
+          <div className="border-r p-6 flex flex-col items-center justify-center text-center space-y-6">
             {roomOwner ? (
               <>
-                <div className="text-center space-y-2">
-                  <p className="text-xs uppercase text-gray-400">
-                    Your room code
-                  </p>
-                  <p className="text-3xl font-bold tracking-wider text-black">
-                    {room}
-                  </p>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
-                    <CopyToClipboard text={room}>
-                      <button className="secondary-btn rounded w-full">
-                        Copy Code
-                      </button>
-                    </CopyToClipboard>
-                    <CopyToClipboard text={`https://dominate.codes/game?code=${room}`}>
-                      <button className="secondary-btn rounded w-full">
-                        Copy URL
-                      </button>
-                    </CopyToClipboard>
-                  </div>
-                  <p className="text-sm text-black mt-2">
-                    Share this code with your friends to join.
-                  </p>
+              <div className="text-center space-y-2">
+                <p className="text-xs uppercase text-gray-400">Your room code</p>
+                <p className="text-3xl font-bold tracking-wider text-black">{room}</p>
+
+                <div className="flex justify-center pt-4">
+                  <CopyToClipboard text={room}>
+                    <button className="secondary-btn rounded px-6 py-2">Copy Code</button>
+                  </CopyToClipboard>
                 </div>
 
+                <p className="text-sm text-black mt-2">
+                  Share this code with your friends to join.
+                </p>
+              </div>
                 <div className="pt-6">
                   <p className="text-xs uppercase text-gray-400 text-center mb-2">
                     Players in Lobby
