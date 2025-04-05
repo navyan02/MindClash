@@ -3,7 +3,6 @@ import { useGame } from "../../context/game-context"
 import { m as motion } from "framer-motion"
 
 import MCQ from "../questions/MCQ"
-import TrueFalse from "../questions/TrueFalse"
 import FillTheBlank from "../questions/FillTheBlank"
 
 import VictoryCard from "../cards/VictoryCard"
@@ -83,9 +82,7 @@ const QuestionContainer = ({ activeEvent, reset }) => {
       case "FillTheBlank":
         console.log("received filltheblank")
         return <FillTheBlank question={question} onSubmit={onSubmit} {...params}/>      
-      case "TrueFalse":
-        console.log("received TrueFalse")
-        return <TrueFalse question={question} onSubmit={onSubmit} />
+      
       default: 
         console.error("Did not receive a valid event type.")
     }
