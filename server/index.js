@@ -22,7 +22,7 @@ const whitelist = [
   "http://dominate-fe.onrender.com",
   "http://dominate.codes",
   "https://dominate.codes",
-  "https://0be9-153-33-24-118.ngrok-free.app", // ngrok URL
+  "https://0be9-153-33-24-118.ngrok-free.app", // your ngrok URL
 ];
 
 const corsOptions = {
