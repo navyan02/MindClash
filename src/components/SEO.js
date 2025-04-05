@@ -4,16 +4,13 @@ import { Helmet } from "react-helmet-async"
 function SEO({ description, lang = "enGB", meta, title = "Play" }) {
   const site = {
     siteMetadata: {
-      title: "Dominate.Codes",
-      social: {
-        twitter: "samlarsendisney",
-      },
+      title: "Mind Clash",
       description:
-        "The fastest way to improve your computer science knowledge. Dominate your next coding interview.",
+        "WHERE STRATEGY MEETS SKILL",
     },
   }
   const metaDescription = description || site.siteMetadata.description
-  let cardUrl = "https://dominate.codes/meta-preview-image.png"
+  let cardUrl = "/assests/mclogo.png"
   return (
     <Helmet
       htmlAttributes={{
@@ -40,26 +37,6 @@ function SEO({ description, lang = "enGB", meta, title = "Play" }) {
         },
         {
           property: `og:image`,
-          content: cardUrl,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary_large_image`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.social.twitter,
-        },
-        {
-          name: `twitter:title`,
-          content: `${title} · ${site.siteMetadata.title}`,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-        {
-          name: `twitter:image`,
           content: cardUrl,
         },
       ]}
