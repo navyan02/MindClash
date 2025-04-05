@@ -17,9 +17,9 @@ const Join = ({ code, createTime }) => {
   return (
     <div className="max-w-4xl h-full flex flex-col items-center justify-center ">
       <h1 className="text-4xl font-bold mb-4">
-        <span class="text-indigo-800">
-          <span class="opacity-50">&lt;</span>Join.Create.
-          <span class="opacity-50"> /&gt;</span>
+        <span class="text-indigo-400">
+          <span class="opacity-80">&lt;</span>Join.Game.
+          <span class="opacity-80"> /&gt;</span>
         </span>
       </h1>
       {/* header */}
