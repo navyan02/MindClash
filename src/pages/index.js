@@ -44,7 +44,7 @@ const Index = () => {
 
           {/* Updated Text */}
           <p className="text-xl md:text-2xl font-semibold text-left text-white">
-            Speed Meets Strategy in a Clash of Minds.
+            Speed Meets Strategy in a Clash of Minds
           </p>
           <p className="text-4xl md:text-6xl font-bold text-left text-white mt-1">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-red-500">
