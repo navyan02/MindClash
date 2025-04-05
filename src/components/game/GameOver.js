@@ -34,15 +34,16 @@ const GameOver = () => {
           className="shadow-md border w-full bg-white rounded p-4 flex flex-col relative space-y-4 z-20"
         >
           <div>
-            <p className="text-sm text-center uppercase text-gray-400">
-              Time's Up!
-            </p>
-            <p className="text-2xl text-center font-bold">{winner} wins!</p>
-          </div>
-          <div className="flex flex-col items-center justify-center w-full">
-            <h4 className="text-center">Summary:</h4>
-            <FinalProgress />
-          </div>
+          <p className="text-sm text-center uppercase text-black">
+            Time's Up!
+          </p>
+          <p className="text-2xl text-center font-bold 	text-purple-800">{winner} wins!</p>
+        </div>
+        <div className="flex flex-col items-center justify-center w-full">
+          <h4 className="text-center text-black">Summary:</h4>
+          <FinalProgress />
+        </div>
+
           <div className="grid grid-cols-2 gap-2">
             <button
               onClick={resetGameState}
@@ -66,6 +67,12 @@ const GameOver = () => {
             </p>
           )}
         </motion.div>
+        {/* Animated Bubbles */}
+        <div className="absolute bottom-0 z-0 bubbles">
+          {Array.from({ length: 10 }).map((_, index) => (
+            <div key={index} className="bubble"></div>
+          ))}
+        </div>
       </div>
     </div>
   )
