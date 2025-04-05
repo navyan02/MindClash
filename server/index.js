@@ -5,7 +5,7 @@ const firebase = require("firebase-admin");
 const express = require("express");
 const http = require("http");
 const cors = require("cors");
-const serviceAccount = require("/etc/secrets/serviceAccountKey.json");
+const serviceAccount = require("./serviceAccountKey.json");
 
 firebase.initializeApp({
   credential: firebase.credential.cert(serviceAccount),
@@ -22,7 +22,7 @@ const whitelist = [
   "http://dominate-fe.onrender.com",
   "http://dominate.codes",
   "https://dominate.codes",
-  "https://0be9-153-33-24-118.ngrok-free.app", // your ngrok URL
+  "https://0be9-153-33-24-118.ngrok-free.app", // ngrok URL
 ];
 
 const corsOptions = {
