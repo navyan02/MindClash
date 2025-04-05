@@ -1,441 +1,514 @@
-[ 
+[
   {
-    "id": "00000001",
+    "id": "20000001",
     "type": "MCQ",
     "shape": "large_square",
-    "question": "What does HTML stands for?",
-    "tags": ["General Knowledge", "HTML", "Web Development"],
+    "question": "Which of these is a valid Python variable name?",
+    "tags": [
+      "Python",
+      "Basics"
+    ],
     "params": {
-      "options": ["Hypertext Machine language", "Humans Talking Machine Languages", "Hypertext Multiple Language", "Hypertext Markup Language"],
-      "answer": "Hypertext Markup Language"
+      "options": [
+        "1variable",
+        "variable_1",
+        "variable-1",
+        "variable.1"
+      ],
+      "answer": "variable_1"
     }
   },
   {
-    "id": "00000002",
-    "type": "MCQ",
-    "shape": "large_square",
-    "question": "Which of the following initializes the document type in HTML5?",
-    "tags": ["General Knowledge", "HTML", "Web Development"],
-    "params": {
-      "options": ["</DOCTYPE HTML>", "</DOCTYPE>", "<!DOCTYPE HTML>", "</DOCTYPE html>"],
-      "answer": "<!DOCTYPE HTML>"
-    }
-  },
-  {
-    "id": "00000003",
-    "type": "MCQ",
-    "shape": "large_square",
-    "question": "Which of the following HTML tags is used to make text bold?",
-    "tags": ["General Knowledge", "HTML", "Web Development"],
-    "params": {
-      "options": ["<p>", "<i>", "<li>", "<b>"],
-      "answer": "<b>"
-    }
-  },
-  {
-    "id": "00000004",
+    "id": "20000002",
     "type": "MCQ",
     "shape": "vertical_bar",
-    "question": "Which of the following HTML tags is used to make text italic?",
-    "tags": ["General Knowledge", "HTML", "Web Development"],
+    "question": "What will the expression 3 * 'abc' return?",
+    "tags": [
+      "Python",
+      "Strings"
+    ],
     "params": {
-      "options": ["<p>", "<i>", "<li>", "<b>"],
-      "answer": "<i>"
+      "options": [
+        "'abcabcabc'",
+        "'abc3'",
+        "'abc abc abc'",
+        "'3abc'"
+      ],
+      "answer": "'abcabcabc'"
     }
   },
   {
-    "id": "00000005",
-    "type": "MCQ",
-    "shape": "large_square",
-    "question": "Which of the following HTML tags is used to make an unordered list?",
-    "tags": ["General Knowledge", "HTML", "Web Development"],
-    "params": {
-      "options": ["<ui>", "<i>", "<em>", "<ul>"],
-      "answer": "<ul>"
-    }
-  },
-  {
-    "id": "00000006",
-    "type": "MCQ",
-    "shape": "large_square",
-    "question": "Which of the following HTML tags is used to make an ordered list?",
-    "tags": ["General Knowledge", "HTML", "Web Development"],
-    "params": {
-      "options": ["<ul>", "<ol>", "<orderedlist>", "<olist>"],
-      "answer": "<ol>"
-    }
-  },
-  {
-    "id": "00000007",
-    "type": "MCQ",
-    "shape": "vertical_bar",
-    "question": "Which of the following characters is used in a closing HTML tag?",
-    "tags": ["General Knowledge", "HTML", "Web Development"],
-    "params": {
-      "options": [".", "/", "\\", "!"],
-      "answer": "/"
-    }
-  },
-  {
-    "id": "00000008",
-    "type": "MCQ",
-    "shape": "large_square",
-    "question": "What is the font-size of the <h1> heading tag?",
-    "tags": ["HTML", "Web Development"],
-    "params": {
-      "options": ["3.5 em", "2.17 em", "2 em", "1.5 em"],
-      "answer": "2 em"
-    }
-  },
-  {
-    "id": "00000009",
-    "type": "MCQ",
-    "shape": "vertical_bar",
-    "question": "How many heading tags are there in HTML5?",
-    "tags": ["HTML", "Web Development"],
-    "params": {
-      "options": ["2", "3", "5", "6"],
-      "answer": "6"
-    }
-  },
-  {
-    "id": "00000010",
+    "id": "20000003",
     "type": "MCQ",
     "shape": "horizontal_bar",
-    "question": "Which of the following attributes is used to add link to any element?",
-    "tags": ["HTML", "Web Development"],
+    "question": "What is the output of: print(type([]))?",
+    "tags": [
+      "Python",
+      "Lists"
+    ],
     "params": {
-      "options": ["link", "ref", "href", "newref"],
-      "answer": "href"
+      "options": [
+        "<class 'list'>",
+        "<type 'list'>",
+        "<list>",
+        "<list type>"
+      ],
+      "answer": "<class 'list'>"
     }
   },
   {
-    "id": "00000011",
+    "id": "20000004",
     "type": "MCQ",
     "shape": "left_boot",
-    "question": "What is the purpose of a <div></div> in HTML?",
-    "tags": ["HTML", "Web Development"],
+    "question": "Which data structure allows duplicates in Python?",
+    "tags": [
+      "Python",
+      "Data Structures"
+    ],
     "params": {
-      "options": ["To create different styles", "To create different sections", "To separate headings only", "To add titles"],
-      "answer": "To create different sections"
+      "options": [
+        "Set",
+        "List",
+        "Dictionary",
+        "None"
+      ],
+      "answer": "List"
     }
   },
   {
-    "id": "00000012",
-    "type": "MCQ",
-    "shape": "large_square",
-    "question": "Which of the following tags is used to add a line-break in HTML?",
-    "tags": ["HTML", "Web Development"],
-    "params": {
-      "options": ["<br>", "<break>", "</break>", "</br>"],
-      "answer": "</br>"
-    }
-  },
-  {
-    "id": "00000013",
-    "type": "MCQ",
-    "shape": "horizontal_bar",
-    "question": "Which of the following attributes is used to open an hyperlink in new tab?",
-    "tags": ["HTML", "Web Development"],
-    "params": {
-      "options": ["tab", "href", "target", "ref"],
-      "answer": "target"
-    }
-  },
-  {
-    "id": "00000014",
-    "type": "MCQ",
-    "shape": "left_boot",
-    "question": "Which of the following is the correct way to add a background color to the <body> in HTML?",
-    "tags": ["HTML", "Web Development"],
-    "params": {
-      "options": ["<body color = “green”>", "<body bg-color = “green”>", "<body style = “background-color=green”>", "<body style='background-color: green;'>"],
-      "answer": "<body style='background-color: green;'>"
-    }
-  },
-  {
-    "id": "00000015",
-    "type": "MCQ",
-    "shape": "left_boot",
-    "question": "Which of the following is the correct HTML syntax to make a checkbox?",
-    "tags": ["HTML", "Web Development"],
-    "params": {
-      "options": ["<checkbox>", "<input type='checkbox'>", "<check>", "<input type='check'>"],
-      "answer": "<input type='checkbox'>"
-    }
-  },
-  {
-    "id": "00000017",
+    "id": "20000005",
     "type": "MCQ",
     "shape": "short_vertical_bar",
-    "question": "Which of the following tags is used for create a drop-down selection list?",
-    "tags": ["HTML", "Web Development"],
+    "question": "What is the keyword to define a class in Python?",
+    "tags": [
+      "Python",
+      "OOP"
+    ],
     "params": {
-      "options": ["<select>", "<option>", "<dropdown>", "<list>"],
-      "answer": "<select>"
+      "options": [
+        "def",
+        "function",
+        "class",
+        "module"
+      ],
+      "answer": "class"
     }
   },
   {
-    "id": "00000018",
+    "id": "20000006",
     "type": "MCQ",
-    "shape": "short_horizontal_bar",
-    "question": "Which of the following tags is used to add a header to an HTML5 table?",
-    "tags": ["HTML", "Web Development"],
+    "shape": "large_square",
+    "question": "Which sorting algorithm is considered the fastest on average?",
+    "tags": [
+      "Algorithms",
+      "Sorting"
+    ],
     "params": {
-      "options": ["<theader>", "<h1>", "<th>", "<header>"],
-      "answer": "<th>"
+      "options": [
+        "Bubble Sort",
+        "Merge Sort",
+        "Quick Sort",
+        "Selection Sort"
+      ],
+      "answer": "Quick Sort"
     }
   },
   {
-    "id": "00000019",
+    "id": "20000007",
     "type": "MCQ",
     "shape": "vertical_bar",
-    "question": "Which of the following elements can be used to create a table in HTML?",
-    "tags": ["HTML", "Web Development"],
+    "question": "What is the default value of 'end' in the print() function?",
+    "tags": [
+      "Python",
+      "I/O"
+    ],
     "params": {
-      "options": ["<table> , <tbody> , <trow>", "<table> , <tb> , <trow>", "<table> , <tbody> , <tr>", "All of the above"],
-      "answer": "<table> , <tbody> , <tr>"
+      "options": [
+        "''",
+        "' '",
+        "'\\n'",
+        "'\\t'"
+      ],
+      "answer": "'\\n'"
     }
   },
   {
-    "id": "00000020",
+    "id": "20000008",
     "type": "MCQ",
     "shape": "horizontal_bar",
-    "question": "Which of the following is CSS an abbreviation for?",
-    "tags": ["CSS", "Web Development"],
+    "question": "Which of these data types is unordered in Python?",
+    "tags": [
+      "Python",
+      "Data Structures"
+    ],
     "params": {
-      "options": ["Color Style Sheet", "Cascading Style Sheets", "Creative Style Sheet", "Control Style Sheet"],
-      "answer": "Cascading Style Sheets"
+      "options": [
+        "List",
+        "Tuple",
+        "Set",
+        "String"
+      ],
+      "answer": "Set"
     }
   },
   {
-    "id": "00000021",
-    "type": "MCQ",
-    "shape": "vertical_bar",
-    "question": "Using padding creates a space outside which of the following areas:",
-    "tags": ["CSS", "Web Development"],
-    "params": {
-      "options": ["Border", "Content", "Margin", "All of the above"],
-      "answer": "Content"
-    }
-  },
-  {
-    "id": "00000022",
-    "type": "MCQ",
-    "shape": "large_square",
-    "question": "Which one of the following is the correct way of adding Inline styles.",
-    "tags": ["CSS", "Web Development"],
-    "params": {
-      "options": ["<p style=“font-size:16px;”>Dominate.Codes</p>", "<p inline style=“font-size:16px”>Dominate.Codes</p>", "<p inline style=“font-size 16px”>Dominate.Codes</p>", "<p style=“font-size 16px;”>Dominate.Codes</p>"],
-      "answer": "<p style=“font-size:16px;”>Dominate.Codes</p>"
-    }
-  },
-  {
-    "id": "00000023",
-    "type": "MCQ",
-    "shape": "large_square",
-    "question": "Which of the following is the correct CSS syntax?",
-    "tags": ["CSS", "Web Development"],
-    "params": {
-      "options": ["p:color=green, font-size=15px", "{p:color=green, font-size=15px}", "p {color:green, font-size:15px;}", "p {color:green; font-size:15px;]}"],
-      "answer": "p {color:green; font-size:15px;]}"
-    }
-  },
-  {
-    "id": "00000024",
-    "type": "MCQ",
-    "shape": "large_square",
-    "question": "Which of the following is the correct HTML element to define emphasized text?",
-    "tags": ["CSS", "Web Development"],
-    "params": {
-      "options": ["<italic>", "<em>", "<i>", "<emph>"],
-      "answer": "<em>"
-    }
-  },
-  {
-    "id": "00000025",
-    "type": "MCQ",
-    "shape": "horizontal_bar",
-    "question": "How do we add a comment in CSS file?",
-    "tags": ["CSS", "Web Development"],
-    "params": {
-      "options": ["Dominate.Codes", "/ Dominate.Codes /", "/*Dominate.Codes*/", "//*Geeksforgeek]s*//"],
-      "answer": "/*Dominate.Codes*/"
-    }
-  },
-  {
-    "id": "00000026",
-    "type": "MCQ",
-    "shape": "short_vertical_bar",
-    "question": "If 'padding: 10px 5px 20px 0px' is given. What does this represent?",
-    "tags": ["CSS", "Web Development"],
-    "params": {
-      "options": ["left:10px , top:5px , right:20px , bottom:0px", "top:10px , right:5px , bottom:20px , left:0px", "right:10px , bottom:5px , left:20px , top:0px", "bottom:10px , left:5px , top:20px , right:0px"],
-      "answer": "top:10px , right:5px , bottom:20px , left:0px"
-    }
-  },
-  {
-    "id": "00000027",
-    "type": "MCQ",
-    "shape": "short_horizontal_bar",
-    "question": "What is the correct representation to change the color of h2 element?",
-    "tags": ["CSS", "Web Development"],
-    "params": {
-      "options": ["h2 { background-color: #008000 }", "{h2 background-color: #008000}", "h2.all{ background-color: #008000 }", "{h2.all background-color: #008000}]"],
-      "answer": "h2 { background-color: #008000 }"
-    }
-  },
-  {
-    "id": "00000028",
-    "type": "MCQ",
-    "shape": "horizontal_bar",
-    "question": "Where in HTML document is the conventionally correct place to put reference to an external style sheet?",
-    "tags": ["CSS", "Web Development"],
-    "params": {
-      "options": ["In the HEAD section", "In the BODY section", "Both of the Above", "None of the Above"],
-      "answer": "In the HEAD section"
-    }
-  },
-  {
-    "id": "00000029",
+    "id": "20000009",
     "type": "MCQ",
     "shape": "left_boot",
-    "question": "What is the default margin of the body element?",
-    "tags": ["CSS", "Web Development"],
+    "question": "Which of the following is used to create a comment in Python?",
+    "tags": [
+      "Python",
+      "Syntax"
+    ],
     "params": {
-      "options": ["10px", "8px", "12px", "6px"],
-      "answer": "8px"
+      "options": [
+        "// comment",
+        "<!-- comment -->",
+        "# comment",
+        "/* comment */"
+      ],
+      "answer": "# comment"
     }
   },
   {
-    "id": "00000030",
+    "id": "20000010",
     "type": "MCQ",
-    "shape": "vertical_bar",
-    "question": "What is the correct CSS syntax to make all paragraph (p) elements bold?",
-    "tags": ["CSS", "Web Development"],
+    "shape": "short_horizontal_bar",
+    "question": "Which keyword is used to exit a loop in Python?",
+    "tags": [
+      "Python",
+      "Loops"
+    ],
     "params": {
-      "options": ["{p font-size:bold;}", "p{font-weight :bold;}", "<p style=“font-size=bold;”>", "None of the Above"],
-      "answer": "p{font-weight :bold;}"
+      "options": [
+        "exit",
+        "stop",
+        "break",
+        "return"
+      ],
+      "answer": "break"
     }
   },
   {
-    "id": "00000031",
-    "type": "FillTheBlank",
-    "shape": "vertical_bar",
-    "question": "Fill in the blank.",
-    "tags": ["JavaScript"],
-    "params": {
-      "phraseStart": "You can use Object.",
-      "phraseEnd": "to get the keys of an objects",
-      "answer": "keys"
-    }
-  },
-  {
-    "id": "00000032",
-    "type": "FillTheBlank",
-    "shape": "vertical_bar",
-    "question": "Fill in the blank.",
-    "tags": ["testing"],
-    "params": {
-      "phraseStart": "TDD stands for",
-      "phraseEnd": "",
-      "answer": "win"
-    }
-  },
-  {
-    "id": "00000033",
-    "type": "FillTheBlank",
-    "shape": "vertical_bar",
-    "question": "Fill in the blank.",
-    "tags": ["JavaScript", "strings"],
-    "params": {
-      "phraseStart": "To check if two strings are equal you would use ",
-      "phraseEnd": "equals signs",
-      "answer": "3"
-    }
-  },
-  {
-    "id": "00000034",
+    "id": "20000011",
     "type": "FillTheBlank",
     "shape": "large_square",
     "question": "Fill in the blank.",
-    "tags": ["hope"],
+    "tags": [
+      "Python"
+    ],
     "params": {
-      "phraseStart": "The ",
-      "phraseEnd": " function will turn a valid string into an integer",
-      "answer": "parseInt"
+      "phraseStart": "The keyword to create a function in Python is ",
+      "phraseEnd": ".",
+      "answer": "def"
     }
   },
   {
-    "id": "00000035",
+    "id": "20000012",
     "type": "FillTheBlank",
     "shape": "vertical_bar",
     "question": "Fill in the blank.",
-    "tags": ["hope"],
+    "tags": [
+      "Python",
+      "Strings"
+    ],
     "params": {
-      "phraseStart": "A Colour denoted by a Hex Tag always starts with a",
-      "phraseEnd": ".",
-      "answer": "#"
+      "phraseStart": "Strings in Python are enclosed using ",
+      "phraseEnd": " or double quotes.",
+      "answer": "single"
     }
   },
   {
-    "id": "00000036",
-    "type": "FillTheBlank",
-    "shape": "large_square",
-    "question": "Fill in the blank.",
-    "tags": ["JavaScript"],
-    "params": {
-      "phraseStart": "To print Hello World in JavaScript you would write",
-      "phraseEnd": ".",
-      "answer": "console.log(\"Hello World\")"
-    }
-  },
-  {
-    "id": "00000037",
-    "type": "FillTheBlank",
-    "shape": "vertical_bar",
-    "question": "Fill in the blank.",
-    "tags": ["JavaScript", "arrays"],
-    "params": {
-      "phraseStart": "The ",
-      "phraseEnd": "function uses an accumulator and a current value",
-      "answer": "reduce"
-    }
-  },
-  {
-    "id": "00000038",
-    "type": "FillTheBlank",
-    "shape": "vertical_bar",
-    "question": "Fill in the blank.",
-    "tags": ["JavaScript", "arrays"],
-    "params": {
-      "phraseStart": "To add the number 2 to an array of integers in JavaScript called \"arr\", you would write",
-      "phraseEnd": ".",
-      "answer": "arr.push(2)"
-    }
-  },
-  {
-    "id": "00000039",
-    "type": "FillTheBlank",
-    "shape": "large_square",
-    "question": "Fill in the blank.",
-    "tags": ["General Knowledge", "Web Development"],
-    "params": {
-      "phraseStart": "DOM is an abbreviation for",
-      "phraseEnd": ".",
-      "answer": "Document Object Model"
-    }
-  },
-  {
-    "id": "00000040",
+    "id": "20000013",
     "type": "FillTheBlank",
     "shape": "horizontal_bar",
     "question": "Fill in the blank.",
-    "tags": ["hope"],
+    "tags": [
+      "Python",
+      "Lists"
+    ],
     "params": {
-      "phraseStart": "There are",
-      "phraseEnd": "versions of ECMA-262. Write your answer as a number",
-      "answer": "11"
+      "phraseStart": "To access the first element of a list 'lst', we use ",
+      "phraseEnd": ".",
+      "answer": "lst[0]"
     }
+  },
+  {
+    "id": "20000014",
+    "type": "FillTheBlank",
+    "shape": "short_vertical_bar",
+    "question": "Fill in the blank.",
+    "tags": [
+      "Python",
+      "Control Flow"
+    ],
+    "params": {
+      "phraseStart": "The keyword used for conditional branching is ",
+      "phraseEnd": ".",
+      "answer": "if"
+    }
+  },
+  {
+    "id": "20000015",
+    "type": "FillTheBlank",
+    "shape": "short_horizontal_bar",
+    "question": "Fill in the blank.",
+    "tags": [
+      "Algorithms",
+      "Searching"
+    ],
+    "params": {
+      "phraseStart": "To search for a value in a sorted list efficiently, we use ",
+      "phraseEnd": " Search.",
+      "answer": "Binary"
+    }
+  },
+  {
+    "type": "MCQ",
+    "shape": "large_square",
+    "question": "What is the time complexity of accessing an element in a Python list?",
+    "tags": [
+      "Python",
+      "Data Structures",
+      "Algorithms"
+    ],
+    "params": {
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(1)"
+    },
+    "id": "00000041"
+  },
+  {
+    "type": "MCQ",
+    "shape": "vertical_bar",
+    "question": "Which Python data structure uses key-value pairs?",
+    "tags": [
+      "Python",
+      "Data Structures"
+    ],
+    "params": {
+      "options": [
+        "List",
+        "Tuple",
+        "Dictionary",
+        "Set"
+      ],
+      "answer": "Dictionary"
+    },
+    "id": "00000042"
+  },
+  {
+    "type": "MCQ",
+    "shape": "horizontal_bar",
+    "question": "Which of the following is used to define a function in Python?",
+    "tags": [
+      "Python",
+      "Syntax"
+    ],
+    "params": {
+      "options": [
+        "function",
+        "def",
+        "fun",
+        "define"
+      ],
+      "answer": "def"
+    },
+    "id": "00000043"
+  },
+  {
+    "type": "MCQ",
+    "shape": "short_vertical_bar",
+    "question": "Which algorithm is best suited for finding the shortest path in a weighted graph?",
+    "tags": [
+      "Algorithms"
+    ],
+    "params": {
+      "options": [
+        "DFS",
+        "BFS",
+        "Dijkstra's Algorithm",
+        "Merge Sort"
+      ],
+      "answer": "Dijkstra's Algorithm"
+    },
+    "id": "00000044"
+  },
+  {
+    "type": "MCQ",
+    "shape": "large_square",
+    "question": "Which data structure is implemented using LIFO principle?",
+    "tags": [
+      "Data Structures"
+    ],
+    "params": {
+      "options": [
+        "Queue",
+        "Stack",
+        "Heap",
+        "Graph"
+      ],
+      "answer": "Stack"
+    },
+    "id": "00000045"
+  },
+  {
+    "type": "MCQ",
+    "shape": "left_boot",
+    "question": "Which of these is used to handle exceptions in Python?",
+    "tags": [
+      "Python",
+      "Error Handling"
+    ],
+    "params": {
+      "options": [
+        "try-except",
+        "if-else",
+        "for-while",
+        "def-class"
+      ],
+      "answer": "try-except"
+    },
+    "id": "00000046"
+  },
+  {
+    "type": "FillTheBlank",
+    "shape": "vertical_bar",
+    "question": "Fill in the blank.",
+    "tags": [
+      "Python"
+    ],
+    "params": {
+      "phraseStart": "To create a list in Python, use square brackets like ",
+      "phraseEnd": ".",
+      "answer": "[1, 2, 3]"
+    },
+    "id": "00000047"
+  },
+  {
+    "type": "FillTheBlank",
+    "shape": "horizontal_bar",
+    "question": "Fill in the blank.",
+    "tags": [
+      "Python"
+    ],
+    "params": {
+      "phraseStart": "The built-in function to get the length of a list is ",
+      "phraseEnd": ".",
+      "answer": "len"
+    },
+    "id": "00000048"
+  },
+  {
+    "type": "FillTheBlank",
+    "shape": "vertical_bar",
+    "question": "Fill in the blank.",
+    "tags": [
+      "Python"
+    ],
+    "params": {
+      "phraseStart": "The keyword used to loop over a sequence is ",
+      "phraseEnd": ".",
+      "answer": "for"
+    },
+    "id": "00000049"
+  },
+  {
+    "type": "FillTheBlank",
+    "shape": "large_square",
+    "question": "Fill in the blank.",
+    "tags": [
+      "Python"
+    ],
+    "params": {
+      "phraseStart": "To check if two variables are equal in Python, use ",
+      "phraseEnd": ".",
+      "answer": "=="
+    },
+    "id": "00000050"
+  },
+  {
+    "type": "FillTheBlank",
+    "shape": "left_boot",
+    "question": "Fill in the blank.",
+    "tags": [
+      "Data Structures"
+    ],
+    "params": {
+      "phraseStart": "A ",
+      "phraseEnd": " is a data structure where each element points to the next.",
+      "answer": "linked list"
+    },
+    "id": "00000051"
+  },
+  {
+    "type": "MCQ",
+    "shape": "short_horizontal_bar",
+    "question": "Which sorting algorithm has the best average case time complexity?",
+    "tags": [
+      "Algorithms"
+    ],
+    "params": {
+      "options": [
+        "Bubble Sort",
+        "Merge Sort",
+        "Insertion Sort",
+        "Selection Sort"
+      ],
+      "answer": "Merge Sort"
+    },
+    "id": "00000052"
+  },
+  {
+    "type": "FillTheBlank",
+    "shape": "short_vertical_bar",
+    "question": "Fill in the blank.",
+    "tags": [
+      "Algorithms"
+    ],
+    "params": {
+      "phraseStart": "Binary Search requires the list to be ",
+      "phraseEnd": ".",
+      "answer": "sorted"
+    },
+    "id": "00000053"
+  },
+  {
+    "type": "FillTheBlank",
+    "shape": "short_horizontal_bar",
+    "question": "Fill in the blank.",
+    "tags": [
+      "Python"
+    ],
+    "params": {
+      "phraseStart": "To import the math module in Python, use ",
+      "phraseEnd": ".",
+      "answer": "import math"
+    },
+    "id": "00000054"
+  },
+  {
+    "type": "MCQ",
+    "shape": "large_square",
+    "question": "Which of the following is immutable in Python?",
+    "tags": [
+      "Python",
+      "Data Types"
+    ],
+    "params": {
+      "options": [
+        "List",
+        "Dictionary",
+        "Set",
+        "Tuple"
+      ],
+      "answer": "Tuple"
+    },
+    "id": "00000055"
   }
 ]
