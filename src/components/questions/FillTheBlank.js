@@ -17,17 +17,18 @@ const FillTheBlank = ({ phraseStart, phraseEnd, onSubmit }) => {
   return (
     <>
     <div ref={wrapperRef} className="pb-3">
-      <p>
-        {phraseStart}
-        <input
-          type="text"
-          ref={inputRef}
-          value={answer}
-          onChange={handleChange}
-          className="border-b-2 border-indigo-600 mx-1"
-        />
-        {phraseEnd}
-      </p>
+    <p className="text-black">
+    {phraseStart}
+    <input
+      type="text"
+      ref={inputRef}
+      value={answer}
+      onChange={handleChange}
+      className="border-b-2 border-indigo-600 mx-1 text-black"
+     />
+      {phraseEnd}
+    </p>
+
     </div>
     <div className="absolute z-30 bottom-0 right-0 -mb-3"> 
 
