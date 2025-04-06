@@ -2,8 +2,8 @@
 MindClash is a fun coding game built in under 36 hours at HackKU! It's about solving Python problems in a competitive way—play solo or with friends and battle to take over the board by answering questions correctly.
 
 **👥 Built By**
-Navya Nittala
-Nimra Syed
+Navya Nittala,
+Nimra Syed,
 Kundana Dongala
 
 **🎮 How It Works**
