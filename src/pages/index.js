@@ -7,9 +7,14 @@ import "../style/bubbles.css"
 import SEO from "../components/SEO"
 import Circuit from "../assets/cyberpunk-circuit-transparent.png"
 
-const APIURL = process.env.GATSBY_LOCAL_SOCKET === "true"
-  ? "http://localhost:3000/stats"
-  : `${process.env.GATSBY_API_URL}/stats`
+const socketURL = process.env.GATSBY_LOCAL_SOCKET === "true"
+  ? "/"
+  : process.env.GATSBY_API_URL;
+
+const socket = io(socketURL, {
+  transports: ["websocket"],
+});
+
 
 const Index = () => {
   const [data, setData] = React.useState([])
