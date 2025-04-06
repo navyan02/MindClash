@@ -5,25 +5,12 @@ const firebase = require("firebase-admin");
 const express = require("express");
 const http = require("http");
 const cors = require("cors");
-
-const serviceAccount = {
-  type: process.env.FIREBASE_TYPE,
-  project_id: process.env.FIREBASE_PROJECT_ID,
-  private_key_id: process.env.FIREBASE_PRIVATE_KEY_ID,
-  private_key: process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n'),
-  client_email: process.env.FIREBASE_CLIENT_EMAIL,
-  client_id: process.env.FIREBASE_CLIENT_ID,
-  auth_uri: process.env.FIREBASE_AUTH_URI,
-  token_uri: process.env.FIREBASE_TOKEN_URI,
-  auth_provider_x509_cert_url: process.env.FIREBASE_AUTH_PROVIDER_X509_CERT_URL,
-  client_x509_cert_url: process.env.FIREBASE_CLIENT_X509_CERT_URL,
-};
+const serviceAccount = require("./serviceAccountKey.json");
 
 firebase.initializeApp({
   credential: firebase.credential.cert(serviceAccount),
   databaseURL: process.env.FIREBASE_DB_URL,
 });
-
 
 const db = firebase.firestore();
 const app = express();
@@ -31,9 +18,11 @@ const app = express();
 const whitelist = [
   "http://localhost:8000",
   "http://localhost:9000",
-  "https://mind-clash-two.vercel.app",
-  "https://mindclash.onrender.com",
-  "https://0be9-153-33-24-118.ngrok-free.app" //  ngrok URL
+  "https://dominate-fe.onrender.com",
+  "http://dominate-fe.onrender.com",
+  "http://dominate.codes",
+  "https://dominate.codes",
+  "https://0be9-153-33-24-118.ngrok-free.app", // your ngrok URL
 ];
 
 const corsOptions = {
