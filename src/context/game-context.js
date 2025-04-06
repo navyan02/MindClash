@@ -2,10 +2,10 @@ import React, { useState, useContext, useEffect, useMemo } from "react"
 import io from "socket.io-client"
 const GameContext = React.createContext()
 
-const socket =
-  typeof window !== "undefined"
-    ? io(process.env.GATSBY_API_URL || "/", { transports: ["websocket"] })
-    : null;
+const socket = io("http://localhost:3000", {
+  transports: ["websocket"],
+});
+
 
 
 export const GameProvider = ({ ...props }) => {
