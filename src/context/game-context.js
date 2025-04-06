@@ -2,11 +2,10 @@ import React, { useState, useContext, useEffect, useMemo } from "react"
 import io from "socket.io-client"
 const GameContext = React.createContext()
 
-const socket = io("https://mindclash.onrender.com", {
-  transports: ["websocket"],
-});
-
-
+const socket =
+  typeof window !== "undefined"
+    ? io(process.env.GATSBY_API_URL || "/", { transports: ["websocket"] })
+    : null;
 
 
 export const GameProvider = ({ ...props }) => {
