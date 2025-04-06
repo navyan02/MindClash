@@ -8,9 +8,10 @@ const cors = require("cors");
 const serviceAccount = require("./serviceAccountKey.json");
 
 firebase.initializeApp({
-  credential: firebase.credential.cert(serviceAccount),
+  credential: firebase.credential.cert(JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT)),
   databaseURL: process.env.FIREBASE_DB_URL,
 });
+
 
 const db = firebase.firestore();
 const app = express();
