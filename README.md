@@ -14,7 +14,7 @@ Climb the leaderboard by answering fast and correctly
 
 **How you can make this yours:**
   Clone the repo
-  npm install and npm start
+  npm install and npm start, then
   cd server/node index.js
 
 🙌 Thanks for checking it out! We loved building MindClash and hope you have fun playing it.
