@@ -2,9 +2,10 @@ import React, { useState, useContext, useEffect, useMemo } from "react"
 import io from "socket.io-client"
 const GameContext = React.createContext()
 
-const socket = io("http://localhost:3000", {
+const socket = io("https://mindclash.onrender.com", {
   transports: ["websocket"],
 });
+
 
 
 
