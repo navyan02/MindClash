@@ -31,11 +31,9 @@ const app = express();
 const whitelist = [
   "http://localhost:8000",
   "http://localhost:9000",
-  "https://dominate-fe.onrender.com",
-  "http://dominate-fe.onrender.com",
-  "http://dominate.codes",
-  "https://dominate.codes",
-  "https://0be9-153-33-24-118.ngrok-free.app", // your ngrok URL
+  "https://mind-clash-two.vercel.app",
+  "https://mindclash.onrender.com",
+  "https://0be9-153-33-24-118.ngrok-free.app" //  ngrok URL
 ];
 
 const corsOptions = {
