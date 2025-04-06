@@ -18,8 +18,9 @@ const serviceAccount = {
   client_x509_cert_url: process.env.FIREBASE_CLIENT_X509_CERT_URL,
 }
 
-firebase.initializeApp({
-  credential: firebase.credential.cert(JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT)),
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
   databaseURL: process.env.FIREBASE_DB_URL,
 });
 
